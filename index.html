@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DW 手表</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="./js/jquery.js"></script>
+
+  <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+  <!-- Demo styles -->
+
+</head>
+<body>
+
+    <div class="index">
+        <!-- 轮播图 -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <img class="swiper-slide" src="./img/1.jpg" alt="">
+            <img class="swiper-slide" src="./img/2.jpg" alt="">
+            <img class="swiper-slide" src="./img/3.jpg" alt="">
+          </div>
+          <!-- 轮动 -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- 名称 -->
+        <div class="index-name">
+            <span class="index-name-vice">官方正品</span>
+            <span class="index-name-title">丹尼尔惠灵顿DW女表 玫金边白盘玫金表带</span>
+        </div>  
+
+        <!-- 金额 -->
+        <div class="index-name">
+            <span class=" ">￥</span>
+            <span>268</span>
+            <span>.00</span>
+            <span>￥1450.00</span>
+        </div>
+
+        <!-- 抢购 -->
+        <div class="index-buy">立即抢购</div>
+    </div>
+
+  <!-- Swiper JS -->
+  <script src="./js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+  </script>
+</body>
+</html>

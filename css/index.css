@@ -1,0 +1,64 @@
+/* 
+    技术员：大坤
+*/
+
+.index
+{
+    width:640px;
+    height: 100%;
+    background: #ccc;
+    position: relative;
+    margin:0 auto;
+}
+
+
+.public::after
+{ 
+    content:"";
+    display:table;
+    clear:both;
+}
+
+/* 轮播图 */
+.swiper-container
+{
+    height: 640px;
+}
+.swiper-slide
+{
+    background:#eee;
+}
+
+/* 按钮 */
+.index-buy
+{
+    width:640px;
+    height: 4rem;
+    background: #e4393c;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align:center;
+    line-height: 4rem;
+    cursor: pointer;
+    position:fixed;
+    bottom:0;
+}
+
+/* 名称 */
+.index-name
+{
+    padding:.9rem;
+    font-size: 1.5rem;
+    /* background:red; */
+    border-bottom:1px solid #eee;
+}
+.index-name-vice
+{
+    background:red;
+    padding:2px 5px;
+    color: #fff;
+    border-radius: 3px;
+}
+.index-name-title{
+    padding-left:5px;
+}
